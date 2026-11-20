@@ -8,7 +8,7 @@
 <meta name="author" content="Prajakta Panda">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <link rel="canonical" href="https://prajakta-05.github.io/portfolio/">
-<meta name="theme-color" content="#123C32">
+<meta name="theme-color" content="#EFE6D3">
 
 <meta property="og:type" content="profile">
 <meta property="og:title" content="Prajakta Panda – Biotechnology Researcher">
@@ -23,12 +23,12 @@
 <meta name="twitter:description" content="M.Sc. Biotechnology | Molecular Biology | Natural Products | Bioinformatics">
 <meta name="twitter:image" content="https://prajakta-05.github.io/portfolio/assets/og-image.png">
 
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23123C32'/%3E%3Crect x='8' y='9' width='16' height='3' rx='1.5' fill='%23C9E36A'/%3E%3Crect x='8' y='15' width='11' height='3' rx='1.5' fill='%23C9E36A'/%3E%3Crect x='8' y='21' width='14' height='3' rx='1.5' fill='%23C9E36A'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%233A2A1F'/%3E%3Crect x='8' y='9' width='16' height='3' rx='1.5' fill='%23A9CDE2'/%3E%3Crect x='8' y='15' width='11' height='3' rx='1.5' fill='%23A9CDE2'/%3E%3Crect x='8' y='21' width='14' height='3' rx='1.5' fill='%23A9CDE2'/%3E%3C/svg%3E">
 <link rel="alternate" type="text/plain" href="llms.txt" title="LLM-readable profile">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Nanum+Pen+Script&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
 
 <script type="application/ld+json">
 {
@@ -116,314 +116,539 @@
   ]
 }
 </script>
-
 <style>
+/*
+VOICE    a private research journal: quiet, exact, a little mysterious
+IDEA     a scientist's sketchbook, dark pages, pencil and ink specimens
+PICTURE  seeded hand-drawn SVG plates of her own subjects (Ailanthus, myricetin, rice moth, WRKY tree, lab rat)
+COLOUR   ink-dark #101110 pages, bone #E9E5D9 type, graphite #B7B9A8 drawings, olive and burgundy as second inks
+TYPE     IM Fell English (old scientific print), Newsreader (reading), Nanum Pen Script (pencil notes)
+*/
 :root{
-  --paper:#F6F5EF; --ink:#202722; --ink-2:#4F5851; --muted:#858D86; --rule:#DFE0D6;
-  --teal:#123C32; --teal-pale:#E4EBE2; --sage:#A8BDA8; --gel:#123C32; --band:#C9E36A;
-  --serif:"Spectral",Georgia,serif; --sans:"Public Sans",system-ui,sans-serif;
+  --bg:#EFE6D3;--bg2:#E6DAC1;--surface:#F6F0E3;--ink:#3A2A1F;--ink-2:#6E5A49;--illus:#4A3526;--olive:#6E7A3E;--olive-2:#66733A;--bur:#5E93B3;--bur-2:#5E93B3;--sky:#A9CDE2;--sky-2:#D3E6F0;--rule:#D5C6AA;
+  --display:"IM Fell English",Georgia,serif;--body:"Newsreader",Georgia,serif;--hand:"Nanum Pen Script","Segoe Print",cursive;
 }
-*{box-sizing:border-box;margin:0}
-html{scroll-behavior:smooth}
-body{background:var(--paper);color:var(--ink);font:400 17px/1.65 var(--sans);-webkit-font-smoothing:antialiased}
-a{color:var(--teal);text-underline-offset:3px}
-a:focus-visible,button:focus-visible{outline:3px solid var(--teal);outline-offset:3px;border-radius:4px}
-.wrap{max-width:1120px;margin:0 auto;padding:0 28px}
-.skip{position:absolute;left:-999px}.skip:focus{left:16px;top:16px;background:#fff;padding:8px 12px;z-index:9}
+*{box-sizing:border-box;margin:0;min-width:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px;color-scheme:light}
+body{background:var(--bg);color:var(--ink);font:400 18px/1.7 var(--body);-webkit-font-smoothing:antialiased;overflow-x:clip}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.13;mix-blend-mode:multiply;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+main,header,footer{position:relative;z-index:1}
+a{color:var(--ink);text-decoration-color:var(--olive-2);text-underline-offset:4px}
+a:hover{text-decoration-color:var(--ink)}
+:focus-visible{outline:2px dashed var(--illus);outline-offset:4px}
+img{max-width:100%}
+.wrap{max-width:1240px;margin:0 auto;padding:0 clamp(18px,4vw,40px)}
+.skip{position:absolute;left:-999px}.skip:focus{left:16px;top:12px;z-index:20;background:var(--ink);color:var(--bg);padding:8px 12px}
+.hand{font-family:var(--hand);font-weight:400}
 
-/* nav */
-header.top{border-bottom:1px solid var(--rule);background:rgba(246,245,239,.92);backdrop-filter:blur(8px);position:sticky;top:0;z-index:5}
-header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
-.mark{font:600 18px var(--serif);color:var(--ink);text-decoration:none;white-space:nowrap}
-nav ul{display:flex;gap:26px;list-style:none;padding:0}
-nav a{color:var(--ink-2);text-decoration:none;font-size:15px}
-nav a:hover{color:var(--teal)}
+/* drawings */
+.sk{overflow:visible}
+.sk path{fill:none;stroke:var(--illus);stroke-linecap:round;stroke-linejoin:round}
+.sk path.olive{stroke:var(--olive-2)} .sk path.bur{stroke:var(--bur-2)}
+.sk .dot{fill:var(--illus)} .sk .dot.bur{fill:var(--sky)}
+.sk text{fill:var(--ink);font-family:var(--hand)} .sk text.soft{fill:var(--ink-2)} .sk text.mono{letter-spacing:.06em}
+.sk.pend path{stroke-dasharray:1;stroke-dashoffset:1}
+.sk.pend .dot,.sk.pend text{opacity:0}
+.sk.pend.on path{animation:ink 1.3s cubic-bezier(.45,.05,.3,1) forwards;animation-delay:var(--dl,0s)}
+.sk.pend.on .dot,.sk.pend.on text{transition:opacity .9s ease 1s;opacity:1}
+@keyframes ink{to{stroke-dashoffset:0}}
+.skbox,.circ{position:relative}
+svg.frame{position:absolute;inset:-6px;width:calc(100% + 12px);height:calc(100% + 12px);pointer-events:none}
+svg.frame path{stroke:var(--illus)}
+.float{animation:float 8s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-7px) rotate(1deg)}}
+@media (prefers-reduced-motion:reduce){.float{animation:none}html{scroll-behavior:auto}}
 
-/* hero: editorial split, real lab photograph as the primary visual */
-.hero{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:56px;align-items:end;padding:72px 0 88px}
-.hero-text{padding-bottom:12px}
-.status{display:inline-flex;align-items:center;gap:9px;font-size:14px;color:var(--ink-2);margin-bottom:34px}
-.status i{width:9px;height:9px;border-radius:50%;background:#5FA35B;box-shadow:0 0 0 4px #5fa35b26}
-.hero h1{font:600 19px/1.3 var(--sans);color:var(--teal)}
-.hero h1 small{display:block;font:400 15px/1.5 var(--sans);color:var(--ink-2);margin-top:2px}
-.headline{font:500 clamp(44px,5.6vw,76px)/1.02 var(--serif);letter-spacing:-.025em;color:var(--ink);margin:26px 0 28px;text-wrap:balance}
-.hero p.lede{max-width:50ch;color:var(--ink-2);font-size:18px}
-.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
-.btn{display:inline-flex;align-items:center;gap:10px;min-height:46px;padding:0 22px;border-radius:999px;font:500 15px var(--sans);text-decoration:none;border:1.5px solid var(--teal)}
-.btn.primary{background:var(--teal);color:#fff}
-.btn.primary:hover{background:#0B2A22}
-.btn.ghost{color:var(--teal)}
-.btn.ghost:hover{background:var(--teal-pale)}
-.btn svg{width:16px;height:16px}
+/* header */
+header.top{position:sticky;top:0;z-index:10;background:rgba(239,230,211,.9);backdrop-filter:blur(10px);border-bottom:1px solid var(--rule)}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;gap:20px}
+.brand{font:400 21px var(--display);text-decoration:none;white-space:nowrap}
+.brand span{font:400 21px var(--hand);color:var(--ink-2);margin-left:10px}
+.nav{display:flex;gap:26px;list-style:none;padding:0}
+.nav a{font-size:15.5px;color:var(--ink-2);text-decoration:none}
+.nav a:hover{color:var(--ink)}
+.menu-btn{display:none;background:none;border:0;color:var(--ink);font:400 24px var(--hand);min-height:44px;padding:0 6px;cursor:pointer}
 
-.hero-visual{position:relative;margin:0}
-.hero-photo{position:relative;border-radius:4px 4px 4px 140px;overflow:hidden;aspect-ratio:4/5;background:var(--sage)}
-.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:40% 30%;display:block}
-.hero-visual figcaption{display:flex;justify-content:space-between;gap:16px;font:italic 400 14px/1.45 var(--serif);color:var(--ink-2);margin-top:12px}
+/* hero */
+.hero-band{position:relative;overflow:clip}
+.hero-fern{position:absolute;right:-70px;bottom:-150px;width:clamp(160px,16vw,230px);opacity:.6;pointer-events:none}
+.hero-leaf{position:absolute;right:-40px;top:-30px;width:clamp(220px,22vw,340px);opacity:.5;pointer-events:none}
+.hero{position:relative;display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);gap:clamp(36px,6vw,96px);align-items:center;padding-top:clamp(48px,7vw,104px);padding-bottom:clamp(72px,9vw,132px)}
+.fig-note{font:400 26px/1 var(--hand);color:var(--ink-2);display:flex;align-items:center;gap:12px;margin-bottom:22px}
+.fig-note::after{content:"";width:72px;border-top:1px dotted var(--olive-2)}
+.name{font:400 clamp(76px,11vw,160px)/.84 var(--display);letter-spacing:-.015em}
+.name span{display:block}
+.name span+span{padding-left:.62em}
+.kicker{font-size:17px;color:var(--ink-2);margin:30px 0 0}
+.headline{font:italic 400 clamp(28px,3.1vw,40px)/1.18 var(--display);max-width:19ch;margin:14px 0 20px}
+.intro{color:var(--ink-2);font-size:19px;max-width:46ch}
+.cta{display:flex;flex-wrap:wrap;gap:18px 22px;margin-top:36px;align-items:center}
+.btn{display:inline-flex;align-items:center;min-height:50px;padding:0 24px;font:500 16.5px var(--body);text-decoration:none;color:var(--ink);background:transparent;transition:background .25s,color .25s}
+.btn.primary{background:var(--ink);color:var(--bg)}
+.btn.primary:hover{background:#24180F}
+.btn:not(.primary):hover{background:var(--surface)}
+.open{display:flex;align-items:center;gap:10px;font:400 24px/1.2 var(--hand);color:var(--ink-2);margin-top:28px}
+.open i{width:9px;height:9px;border-radius:50%;background:var(--olive-2);box-shadow:0 0 0 5px rgba(110,122,62,.18)}
 
-/* gel inset: the one moving element */
-.gel{position:absolute;left:-44px;bottom:64px;width:212px;background:var(--gel);border-radius:10px;padding:12px 12px 10px;box-shadow:0 18px 40px -18px rgba(18,60,50,.55)}
-.gel svg{display:block;width:100%;height:auto}
-.gel p{font:400 11px/1.35 var(--sans);color:var(--sage);margin-top:6px}
-.lane-label{font:500 10px var(--sans);fill:#CFDCCF}
-.well{fill:#24584A}
-.band{fill:var(--band);filter:url(#glow);transform-box:fill-box;animation:run 2.4s cubic-bezier(.2,.7,.2,1) both}
-@keyframes run{from{transform:translateY(-90px);opacity:0}25%{opacity:1}to{transform:none;opacity:1}}
-@media (prefers-reduced-motion:reduce){.band{animation:none}html{scroll-behavior:auto}}
+.hero-fig{position:relative;margin:0;padding-top:78px;max-width:400px;justify-self:end;width:100%}
+.now{position:absolute;top:0;left:-46%;width:78%;font:400 25px/1.1 var(--hand);color:var(--ink);transform:rotate(-3deg)}
+.now small{display:block;font-size:20px;color:var(--ink-2)}
+.hero-arrow{position:absolute;top:34px;left:6%;width:96px}
+.plate{position:relative;transform:rotate(1.4deg)}
+.plate img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:42% 22%;filter:saturate(.9) sepia(.08)}
+.hero-fig .plate::before{content:"";position:absolute;inset:22px -22px -22px 22px;background:var(--sky);z-index:-1}
+.journal .left .plate::before{content:"";position:absolute;inset:-18px 18px 18px -18px;background:var(--sky-2);z-index:-1}
+.plate.veil img{clip-path:inset(0 0 100% 0);transition:clip-path 1.4s cubic-bezier(.6,.05,.25,1)}
+.plate.veil.on img{clip-path:inset(0)}
+.tape{position:absolute;width:92px;height:26px;background:rgba(141,187,214,.62);top:-13px;z-index:2}
+.tape.l{left:8%;transform:rotate(-7deg)}.tape.r{right:8%;transform:rotate(6deg)}
+.cap{font:400 22px/1.25 var(--hand);color:var(--ink-2);margin-top:14px;display:block}
+.hero-dna{position:absolute;left:-58px;bottom:16%;width:56px}
+.hero-micro{position:absolute;right:-70px;bottom:-110px;width:92px}
 
-/* sections: paper layout, heading column + content column */
-section.block{display:grid;grid-template-columns:220px 1fr;gap:48px;padding:72px 0;border-top:1px solid var(--rule)}
-section.block>h2{font:500 30px/1.15 var(--serif);position:sticky;top:92px;align-self:start}
-.prose{max-width:66ch}
-.prose p+p{margin-top:1em}
+/* sections */
+.sec{padding:clamp(80px,10vw,140px) 0;position:relative;border-top:1px solid var(--rule)}
+.sec-head{margin-bottom:clamp(40px,5vw,64px);max-width:720px}
+.note{font:400 26px/1 var(--hand);color:var(--olive-2);display:block;margin-bottom:10px}
+.sec-head h2{font:400 clamp(44px,6vw,80px)/.98 var(--display);letter-spacing:-.01em}
+svg.uline{display:block;width:clamp(160px,26vw,290px);height:16px;margin-top:10px}
+.lede{color:var(--ink-2);font-size:19px;max-width:58ch;margin-top:20px}
 
-.about{display:grid;grid-template-columns:1fr 240px;gap:40px;align-items:start}
-.about img{width:100%;height:auto;border-radius:12px;aspect-ratio:4/5;object-fit:cover;object-position:50% 30%}
-.facts{margin-top:26px;display:grid;grid-template-columns:repeat(3,auto);gap:8px 32px;justify-content:start}
-.facts dt{font-size:13px;color:var(--ink-2)}
-.facts dd{font:500 26px var(--serif)}
+/* about: journal spread */
+.journal{display:grid;grid-template-columns:minmax(0,.82fr) 24px minmax(0,1.18fr);gap:clamp(24px,4vw,56px);align-items:start}
+.journal .left .plate{transform:rotate(-1.6deg);max-width:420px}
+.journal .left .plate img{aspect-ratio:4/5;object-position:50% 18%}
+.roots{width:min(100%,330px);display:block;margin:26px 0 0 auto}
+.gutter{width:12px;height:100%;min-height:600px}
+.journal .right p{max-width:60ch}
+.journal .right p+p{margin-top:1.05em}
+.dropcap::first-letter{float:left;font:400 5.2em/.78 var(--display);padding:.06em .1em 0 0;color:var(--ink)}
+.margin-notes{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:20px 46px;margin-top:40px}
+.margin-notes li{font:400 25px/1.1 var(--hand);color:var(--ink-2);display:flex;align-items:center;gap:14px}
+.margin-notes .circ{font:400 30px/1 var(--display);color:var(--ink);min-width:46px;height:46px;display:inline-grid;place-items:center;padding:0 6px;background:var(--sky-2);border-radius:50%}
 
-.project{padding:0 0 34px;margin-bottom:34px;border-bottom:1px solid var(--rule)}
-.project:last-child{border-bottom:0;margin-bottom:0;padding-bottom:0}
-.project .when{font-size:14px;color:var(--teal);font-weight:500}
-.project h3{font:500 23px/1.3 var(--serif);margin:4px 0 4px;max-width:44ch}
-.project .where{color:var(--ink-2);font-size:15px;margin-bottom:12px}
-.project ul{padding-left:1.1em;max-width:66ch}
-.project li{margin:.35em 0}
-.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px;padding:0;list-style:none}
-.tags li{font-size:13px;background:var(--teal-pale);color:var(--teal);padding:3px 10px;border-radius:999px}
+/* research interests: specimen plate */
+#interests{background:var(--bg2)}
+#inventory{background:var(--surface)}
+.specimens{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:clamp(18px,2.4vw,32px)}
+.spec{display:flex;flex-direction:column;text-decoration:none;color:var(--ink)}
+.spec svg{width:100%;height:170px}
+.spec .tag{font:400 22px/1 var(--hand);color:var(--olive-2);border-top:1px dotted var(--olive);padding-top:12px;margin-top:16px}
+.spec h3{font:400 23px/1.15 var(--display);margin:8px 0 6px}
+.spec p{font-size:15.5px;line-height:1.5;color:var(--ink-2)}
+.spec:hover h3{text-decoration:underline;text-decoration-color:var(--olive-2);text-underline-offset:5px}
 
-ol.refs{padding-left:1.6em;max-width:70ch}
-ol.refs li{padding-left:.4em;margin-bottom:22px;font:400 17px/1.6 var(--serif)}
-ol.refs li::marker{color:var(--teal);font-weight:600}
-ol.refs .t{font-weight:600}
-ol.refs .me{text-decoration:underline;text-decoration-color:var(--band);text-decoration-thickness:2px}
-ol.refs em{color:var(--ink-2)}
+/* case files */
+.case{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:clamp(32px,6vw,88px);padding:clamp(48px,6vw,80px) 0;border-top:1px dashed var(--rule);align-items:center}
+.case:first-of-type{border-top:0;padding-top:0}
+.case:nth-of-type(even) .case-visual{order:2}
+.case-visual svg{width:100%;height:auto;display:block}
+.case-visual .plate{max-width:470px;margin:0 auto}
+.case-visual .plate img{aspect-ratio:3/4;object-position:50% 30%}
+.case-visual .sub-sketch{width:100%;height:auto;margin-top:26px}
+.case-body .file{font:400 25px/1 var(--hand);color:var(--olive-2)}
+.case-body h3{font:400 clamp(30px,3vw,40px)/1.08 var(--display);margin:10px 0 8px}
+.case-body h3 i{font-style:italic}
+.where{color:var(--ink-2);font-size:16.5px}
+.case-meta{display:grid;grid-template-columns:auto minmax(0,1fr);gap:12px 22px;margin-top:26px}
+.case-meta dt{font:400 23px/1.25 var(--hand);color:var(--ink-2)}
+.case-meta dd{font-size:17px;line-height:1.6}
+.flow{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:16px 8px;margin-top:28px;align-items:center}
+.flow li{display:flex;align-items:center;gap:8px;font-size:15px}
+.flow .skbox{padding:6px 12px;line-height:1.35;background:var(--surface)}
+.flow .fa{width:30px;height:20px;flex:none}
+.flow-title{font:400 22px var(--hand);color:var(--ink-2);margin-top:28px}
 
-.skills{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 40px}
-.skills h3{font:600 15px var(--sans);margin-bottom:8px}
-.skills p{color:var(--ink-2);font-size:16px}
+/* inventory */
+.inventory{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 clamp(28px,4vw,56px)}
+.item{padding:34px 0 40px;border-top:1px solid var(--rule)}
+.item svg{width:100%;height:190px;display:block}
+.item .tag{font:400 22px/1 var(--hand);color:var(--olive-2);margin-top:14px;display:block}
+.item h3{font:400 26px/1.15 var(--display);margin:6px 0 8px}
+.item p{font-size:16px;line-height:1.6;color:var(--ink-2)}
+.langs{margin-top:34px;font:400 24px/1.3 var(--hand);color:var(--ink-2)}
 
-.timeline{list-style:none;padding:0;border-left:2px solid var(--rule);max-width:66ch}
-.timeline li{position:relative;padding:0 0 26px 26px}
-.timeline li::before{content:"";position:absolute;left:-7px;top:8px;width:12px;height:12px;border-radius:50%;background:var(--paper);border:2px solid var(--teal)}
-.timeline .y{font-size:14px;color:var(--teal);font-weight:500}
-.timeline b{display:block;font:500 19px/1.35 var(--serif)}
-.timeline span{color:var(--ink-2);font-size:15px}
-
-details{border-bottom:1px solid var(--rule);padding:16px 0;max-width:70ch}
-summary{cursor:pointer;font:500 20px var(--serif);list-style:none;display:flex;justify-content:space-between;gap:16px}
-summary::after{content:"+";color:var(--teal);font-family:var(--sans)}
-details[open] summary::after{content:"–"}
-details p{margin-top:10px;color:var(--ink-2)}
-
-.contact{background:var(--teal);color:#E9EEE7;border-radius:16px;padding:56px;margin:72px 0 40px;display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:end}
-.contact h2{font:500 clamp(30px,4vw,44px)/1.1 var(--serif);color:#fff}
-.contact p{color:var(--sage);margin-top:14px;max-width:46ch}
-.contact .links a{display:block;color:#fff;font:400 20px var(--serif);text-decoration:none;padding:10px 0;border-bottom:1px solid #2C5446}
-.contact .links a:hover{color:var(--band)}
-footer{color:var(--ink-2);font-size:14px;padding:0 0 40px}
-
-
-/* lab gallery */
-.gallery{display:grid;grid-template-columns:1.25fr 1fr 1fr;grid-template-rows:auto auto;gap:14px}
-.gallery figure{margin:0}
-.gallery img{width:100%;height:100%;object-fit:cover;border-radius:10px;display:block}
-.gallery .tall{grid-row:span 2}
-.gallery .tall img{aspect-ratio:auto;height:100%}
-.gallery figure:not(.tall) img{aspect-ratio:4/3;height:auto}
-.gallery figcaption{font:italic 400 14px/1.4 var(--serif);color:var(--ink-2);margin-top:6px}
+/* bibliography */
+.bib-wrap{display:grid;grid-template-columns:minmax(0,1fr) 230px;gap:40px;align-items:start}
+.bib{list-style:none;padding:0;counter-reset:b}
+.bib li{display:grid;grid-template-columns:110px minmax(0,1fr);gap:26px;padding:28px 0;border-top:1px solid var(--rule)}
+.bib li:last-child{border-bottom:1px solid var(--rule)}
+.bib .no{font:400 44px/1 var(--display);color:var(--ink-2)}
+.bib .meta{display:block;font:400 21px/1.2 var(--hand);color:var(--olive-2);margin-top:8px}
+.bib cite{font-style:normal;display:block;font:400 23px/1.3 var(--display);margin:4px 0 10px}
+.bib .au{font-size:16px;color:var(--ink-2)}
+.bib .au b{color:var(--ink);font-weight:500;text-decoration:underline;text-decoration-color:var(--olive-2);text-underline-offset:4px}
+.bib .jr{font-style:italic;color:var(--ink-2);font-size:16px}
+.margin{font:400 26px/1.15 var(--hand);color:var(--ink-2);padding-top:30px;transform:rotate(-2deg)}
+.margin svg{width:150px;height:auto;display:block;margin:10px 0 0}
 
 /* certificates */
-.certs{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:22px;align-items:start}
+.certs{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:clamp(24px,3vw,44px);align-items:start}
 .cert a{display:block;text-decoration:none;color:var(--ink)}
-.cert img{width:100%;height:auto;border-radius:8px;border:1px solid var(--rule);background:#fff;display:block}
-.cert a:hover img{border-color:var(--teal)}
-.cert h3{font:500 18px/1.3 var(--serif);margin-top:10px}
-.cert p{font-size:14px;color:var(--ink-2)}
-.nptel{margin-top:26px;padding:18px 22px;border:1px solid var(--rule);border-radius:10px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px 24px;align-items:center;max-width:70ch}
-.nptel b{font:500 18px var(--serif)}
-.nptel span{display:block;font-size:14px;color:var(--ink-2)}
+.cert .plate{transform:rotate(-1deg)}
+.cert:nth-child(2) .plate{transform:rotate(1.2deg)}
+.cert:nth-child(3) .plate{transform:rotate(-.6deg)}
+.cert .plate img{aspect-ratio:auto;object-fit:contain;background:#fff;filter:none}
+.cert h3{font:400 22px/1.2 var(--display);margin-top:18px}
+.cert p{font-size:15px;color:var(--ink-2);line-height:1.5}
+.nptel{background:var(--sky-2);display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 28px;align-items:center;padding:20px 24px;margin-top:44px;max-width:760px}
+.nptel b{font:400 22px var(--display);font-weight:400}
+.nptel span{display:block;font-size:15px;color:var(--ink-2)}
 
-@media (max-width:880px){
-  .gallery{grid-template-columns:1fr 1fr}.gallery .tall{grid-row:auto;grid-column:span 2}.gallery .tall img{aspect-ratio:4/5;height:auto}
-  .certs{grid-template-columns:1fr 1fr}.certs .cert:first-child{grid-column:span 2}
-  .hero{grid-template-columns:1fr;padding:40px 0 56px;gap:36px}
-  .hero-photo{border-radius:4px 4px 4px 90px;aspect-ratio:4/4.4}
-  .gel{left:auto;right:10px;bottom:46px;width:150px}
-  section.block{grid-template-columns:1fr;gap:20px;padding:56px 0}
-  section.block>h2{position:static}
-  .about{grid-template-columns:1fr}
-  .about img{max-width:260px;order:-1}
-  .skills{grid-template-columns:1fr}
-  .contact{grid-template-columns:1fr;padding:36px 28px}
-  nav ul{gap:16px}nav li:nth-child(n+2):not(:last-child){display:none}
+/* timeline */
+.tl{position:relative;padding:0 0 0 64px;max-width:760px}.tl ol{list-style:none;padding:0}
+.tl .tl-line{position:absolute;left:12px;top:6px;width:20px;height:calc(100% - 12px)}
+.tl .tl-line path{vector-effect:non-scaling-stroke}
+.tl li{position:relative;padding:0 0 34px}
+.tl li .node{position:absolute;left:-63px;top:4px;width:24px;height:24px}
+.tl .y{font:400 23px/1 var(--hand);color:var(--olive-2)}
+.tl b{display:block;font:400 23px/1.25 var(--display);font-weight:400;margin:6px 0 2px}
+.tl span.s{color:var(--ink-2);font-size:16px}
+
+/* faq */
+.faq details{border-top:1px solid var(--rule);padding:20px 0;max-width:820px}
+.faq details:last-child{border-bottom:1px solid var(--rule)}
+.faq summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:20px;font:400 25px/1.25 var(--display)}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font:400 30px/1 var(--hand);color:var(--olive-2)}
+.faq details[open] summary::after{content:"−"}
+.faq details p{color:var(--ink-2);margin-top:12px;max-width:66ch}
+
+/* closing */
+.closing-band{background:var(--sky-2);border-top:1px solid var(--rule)}
+.closing{position:relative;display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(24px,5vw,72px);align-items:center;padding:clamp(80px,10vw,140px) 0 60px}
+.foot-monstera{width:100%;max-width:520px;height:auto;display:block}
+.closing h2{font:400 clamp(44px,6.4vw,92px)/.98 var(--display);letter-spacing:-.01em}
+.closing h2 span{display:block}
+.closing h2 span:nth-child(2){padding-left:.8em;color:var(--ink-2)}
+.closing h2 span:nth-child(3){padding-left:.3em}
+.contact-list{list-style:none;padding:0;margin-top:40px}
+.contact-list li{display:grid;grid-template-columns:120px minmax(0,1fr);align-items:baseline;gap:16px;padding:14px 0;border-top:1px solid #B9CFDB}
+.contact-list .k{font:400 23px var(--hand);color:var(--ink-2)}
+.contact-list a{font:400 22px var(--display);text-decoration:none;overflow-wrap:anywhere}
+.contact-list a:hover{text-decoration:underline}
+.foot-dna{position:absolute;right:0;top:56px;width:220px;opacity:.8}
+footer.end{position:relative;background:transparent;display:flex;justify-content:space-between;align-items:flex-end;gap:20px;padding:18px 0 34px;color:var(--ink-2);font-size:15px;border-top:1px solid var(--rule);margin-top:60px}
+.foot-rat{width:190px;height:auto;position:absolute;right:40px;top:-74px}
+
+@media (max-width:1080px){
+  .specimens{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .inventory{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .now{left:-6%;top:-6px;width:auto}
+  .hero-arrow{display:none}
+}
+@media (max-width:860px){
+  .menu-btn{display:block}
+  .nav{display:none;position:absolute;top:64px;left:0;right:0;flex-direction:column;gap:0;background:var(--bg2);border-bottom:1px solid var(--rule);padding:8px clamp(18px,4vw,40px) 18px}
+  .nav-open .nav{display:flex}
+  .nav a{display:block;padding:12px 0;font-size:18px;color:var(--ink)}
+  .brand span{display:none}
+  .hero{grid-template-columns:1fr;padding-top:36px}
+  .hero-fig .plate::before{inset:14px -10px -14px 14px}
+  .hero-fig{max-width:460px;padding-top:58px;margin-inline:auto 8px}
+  .now{left:0;top:0}
+  .hero-dna{left:-40px;width:44px}
+  .hero-micro{right:-10px;width:78px}
+  .hero-leaf{opacity:.35;width:240px}
+  .hero-fern{width:150px;opacity:.5}
+  .journal{grid-template-columns:1fr}
+  .gutter{display:none}
+  .journal .left .plate{max-width:340px}
+  .roots{margin:20px auto 0}
+  .case,.case:nth-of-type(even){grid-template-columns:1fr}
+  .case:nth-of-type(even) .case-visual{order:0}
+  .bib-wrap{grid-template-columns:1fr}
+  .margin{order:-1;padding-top:0}
+  .margin svg{display:none}
+  .certs{grid-template-columns:1fr 1fr}
+  .cert:first-child{grid-column:span 2}
+  .closing{grid-template-columns:1fr}
+  .foot-monstera{max-width:330px;margin:0 auto;order:2}
+  .foot-dna{display:none}
+}
+@media (max-width:560px){
+  .specimens{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .inventory{grid-template-columns:1fr}
+  .bib li{grid-template-columns:1fr;gap:6px}
+  .contact-list li{grid-template-columns:1fr;gap:2px}
+  .certs{grid-template-columns:1fr}.cert:first-child{grid-column:auto}
+  .foot-rat{width:140px;right:10px;top:-58px}
+  footer.end{flex-direction:column;align-items:flex-start}
 }
 </style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="top"><div class="wrap">
-  <a class="mark" href="#top">Prajakta Panda</a>
-  <nav aria-label="Sections"><ul>
-    <li><a href="#research">Research</a></li>
+  <a class="brand" href="#top">Prajakta Panda<span>research notebook</span></a>
+  <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
+  <ul class="nav" id="nav">
+    <li><a href="#interests">Interests</a></li>
+    <li><a href="#cases">Case files</a></li>
+    <li><a href="#inventory">Lab skills</a></li>
     <li><a href="#publications">Publications</a></li>
-    <li><a href="#certificates">Certificates</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#education">Education</a></li>
+    <li><a href="#timeline">Timeline</a></li>
     <li><a href="#contact">Contact</a></li>
-  </ul></nav>
+  </ul>
 </div></header>
 
-<main id="main" class="wrap">
-  <div class="hero" id="top">
-    <div class="hero-text">
-      <p class="status"><i aria-hidden="true"></i>Open to PhD and research associate roles</p>
-      <h1>Prajakta Panda<small>Biotechnology researcher, M.Sc. Biotechnology 2025</small></h1>
-      <p class="headline">From plant extract to protein pocket.</p>
-      <p class="lede">I study how natural compounds act on disease targets. At the bench I extract and test plant compounds for antioxidant and anti-inflammatory activity, and in silico I dock them against proteins such as the <span style="white-space:nowrap">SARS-CoV-2</span> main protease.</p>
-      <div class="cta">
-        <a class="btn primary" href="#research">Explore my work</a>
-        <a class="btn ghost" href="assets/Prajakta-Panda-CV.pdf" download="Prajakta-Panda-CV.pdf"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>Download CV</a>
+<main id="main">
+  <div class="hero-band" id="top">
+    <svg class="sk hero-leaf" data-draw="hero-leaf" data-parallax="-.06" viewBox="0 0 480 360" aria-hidden="true"></svg>
+    <svg class="sk hero-fern" data-draw="hero-fern" data-parallax=".05" viewBox="0 0 280 760" aria-hidden="true"></svg>
+    <div class="wrap hero">
+      <div class="hero-copy">
+        <p class="fig-note">Fig. 01, a study of life</p>
+        <h1 class="name"><span>Prajakta</span><span>Panda</span></h1>
+        <p class="kicker">Biotechnology researcher, M.Sc. Biotechnology (2025), Sambalpur, Odisha</p>
+        <p class="headline">Curiosity, observed through the lens of science.</p>
+        <p class="intro">I extract and test plant compounds at the bench, then dock them against disease proteins in silico. My notebook spans natural product pharmacology, molecular biology and bioinformatics.</p>
+        <div class="cta">
+          <a class="btn primary skbox" href="#cases">Explore my research</a>
+          <a class="btn skbox" href="assets/Prajakta-Panda-CV.pdf" target="_blank" rel="noopener">View curriculum vitae</a>
+        </div>
+        <p class="open"><i aria-hidden="true"></i>Open to PhD and research associate roles</p>
       </div>
-    </div>
 
-    <figure class="hero-visual">
-      <div class="hero-photo">
-        <img src="assets/lab-gel-loading.jpg" width="1013" height="1400" fetchpriority="high" alt="Prajakta Panda loading DNA samples into an agarose gel on a UV transilluminator in the lab">
-      </div>
-      <div class="gel" aria-hidden="true">
-        <svg viewBox="0 0 360 230">
-          <defs><filter id="glow" x="-50%" y="-200%" width="200%" height="500%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-          <g id="lanes"></g>
-        </svg>
-        <p>A stylised gel of the methods I use</p>
-      </div>
-      <figcaption><span>Loading samples for agarose gel electrophoresis</span></figcaption>
-    </figure>
+      <figure class="hero-fig">
+        <p class="now">Currently exploring<small>plant compounds against disease targets</small></p>
+        <svg class="sk hero-arrow" data-draw="hero-arrow" viewBox="0 0 124 80" aria-hidden="true"></svg>
+        <div class="plate skbox">
+          <span class="tape l" aria-hidden="true"></span><span class="tape r" aria-hidden="true"></span>
+          <img src="assets/lab-gel-loading.jpg" width="1013" height="1400" fetchpriority="high" alt="Prajakta Panda in a lab coat loading DNA samples into an agarose gel in the Plant Molecular Biology Lab, Centurion University">
+        </div>
+        <svg class="sk hero-dna float" data-draw="hero-dna" viewBox="0 0 60 240" aria-hidden="true"></svg>
+        <svg class="sk hero-micro" data-draw="hero-micro" viewBox="0 0 106 146" aria-hidden="true"></svg>
+        <figcaption class="cap">Plate I. Loading an agarose gel, Plant Molecular Biology Lab, Centurion University</figcaption>
+      </figure>
+    </div>
   </div>
 
-  <section class="block" id="about" aria-labelledby="about-h">
-    <h2 id="about-h">About</h2>
-    <div class="about">
-      <div class="prose">
-        <p>I'm a biotechnology graduate from Sambalpur, Odisha. My master's thesis looked at the anti-arthritic and antioxidant potential of <i>Ailanthus excelsa</i>. I prepared and standardised the extracts, ran DPPH and FRAP assays, and carried out in vitro and in vivo anti-inflammatory studies.</p>
-        <p>Before that I trained in biochemistry at Centurion University. There I identified 84 WRKY transcription factor genes in <i>Dichanthelium oligosanthes</i>, and studied odorant-binding protein expression in the rice moth <i>Corcyra cephalonica</i> using RT-PCR.</p>
-        <p>I'm looking for a PhD or research associate position where I can combine wet-lab work with computational analysis.</p>
-        <dl class="facts">
-          <div><dt>Peer-reviewed papers</dt><dd>3</dd></div>
-          <div><dt>WRKY genes identified</dt><dd>84</dd></div>
-          <div><dt>B.Sc. rank, all campuses</dt><dd>10th</dd></div>
-        </dl>
+  <section class="sec" id="about" aria-labelledby="about-h">
+    <div class="wrap journal">
+      <div class="left">
+        <figure style="margin:0">
+          <div class="plate skbox"><span class="tape l" aria-hidden="true"></span><img src="assets/lab-pipetting.jpg" width="720" height="1280" loading="lazy" alt="Prajakta Panda smiling while micropipetting at a lab bench, wearing a white lab coat and blue gloves"></div>
+          <figcaption class="cap">Plate II. At the bench, micropipetting</figcaption>
+        </figure>
+        <svg class="sk roots" data-draw="roots" viewBox="0 0 330 340" aria-hidden="true"></svg>
       </div>
-      <img src="assets/prajakta-panda.jpg" width="480" height="600" alt="Prajakta Panda in a white lab coat, pipetting in a biotechnology lab" loading="lazy">
-    </div>
-  </section>
-
-  <section class="block" id="research" aria-labelledby="research-h">
-    <h2 id="research-h">Research</h2>
-    <div>
-      <article class="project">
-        <p class="when">2024 – 2025</p>
-        <h3>Anti-arthritic and antioxidant potential of <i>Ailanthus excelsa</i> extract</h3>
-        <p class="where">Master's thesis, Sambalpur University</p>
-        <ul>
-          <li>Prepared and standardised plant extracts by solvent extraction and performed phytochemical screening.</li>
-          <li>Measured antioxidant activity with DPPH and FRAP assays and ran in vitro and in vivo anti-inflammatory studies.</li>
-          <li>Analysed oxidative stress markers and biochemical parameters, observing a significant reduction in inflammatory markers.</li>
+      <svg class="sk gutter" data-draw="gutter" viewBox="0 0 12 860" preserveAspectRatio="none" aria-hidden="true"></svg>
+      <div class="right">
+        <div class="sec-head">
+          <span class="note">Research notes, p. 1</span>
+          <h2 id="about-h">An introduction</h2>
+        </div>
+        <p class="dropcap">I'm a biotechnology graduate from Sambalpur, Odisha. My master's thesis at Sambalpur University asked whether an extract of <i>Ailanthus excelsa</i> could calm inflammation and oxidative stress. I prepared and standardised the extracts, ran DPPH and FRAP antioxidant assays, and carried out in vitro and in vivo anti-inflammatory studies.</p>
+        <p>I came to biotechnology through biochemistry at Centurion University. There I identified 84 WRKY transcription factor genes in the grass <i>Dichanthelium oligosanthes</i>, and used RT-PCR to follow odorant-binding protein expression in the rice moth <i>Corcyra cephalonica</i>.</p>
+        <p>The thread through all of it is the same question: what does a natural compound actually do inside a living system? I'm now looking for a PhD or research associate position where wet-lab work and computational analysis meet.</p>
+        <ul class="margin-notes">
+          <li><span class="circ">3</span>peer-reviewed papers</li>
+          <li><span class="circ">84</span>WRKY genes identified</li>
+          <li><span class="circ">10th</span>rank in B.Sc., all campuses</li>
         </ul>
-        <ul class="tags" aria-label="Methods"><li>Phytochemistry</li><li>DPPH</li><li>FRAP</li><li>In vivo studies</li><li>Pharmacology</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="interests" aria-labelledby="int-h">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="note">Under observation</span>
+        <h2 id="int-h">Research interests</h2>
+        <p class="lede">Five subjects I've worked on directly. Each specimen links to the case file or skills behind it.</p>
+      </div>
+      <div class="specimens">
+        <a class="spec" href="#case-1"><svg class="sk" data-draw="spec-1" viewBox="0 0 200 180" aria-hidden="true"></svg><span class="tag">Specimen No. 01</span><h3>Natural product pharmacology</h3><p>Anti-arthritic and antioxidant activity of <i>Ailanthus excelsa</i> extract.</p></a>
+        <a class="spec" href="#publications"><svg class="sk" data-draw="spec-2" viewBox="0 0 200 180" aria-hidden="true"></svg><span class="tag">Specimen No. 02</span><h3>Molecular docking</h3><p>Caffeine, myricetin and ellagic acid against the SARS-CoV-2 main protease.</p></a>
+        <a class="spec" href="#case-2"><svg class="sk" data-draw="spec-3" viewBox="0 0 200 180" aria-hidden="true"></svg><span class="tag">Specimen No. 03</span><h3>Plant genomics and bioinformatics</h3><p>Genome-wide analysis of WRKY transcription factors.</p></a>
+        <a class="spec" href="#case-3"><svg class="sk" data-draw="spec-4" viewBox="0 0 200 180" aria-hidden="true"></svg><span class="tag">Specimen No. 04</span><h3>Insect molecular biology</h3><p>Odorant-binding proteins in the rice moth, <i>Corcyra cephalonica</i>.</p></a>
+        <a class="spec" href="#inventory"><svg class="sk" data-draw="spec-5" viewBox="0 0 200 180" aria-hidden="true"></svg><span class="tag">Specimen No. 05</span><h3>Molecular biology</h3><p>PCR, RT-PCR and qPCR for gene expression.</p></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="cases" aria-labelledby="cases-h">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="note">Exploring the microscopic world</span>
+        <h2 id="cases-h">Case files</h2>
+        <p class="lede">The research and training behind my work, with the method of each laid out step by step.</p>
+      </div>
+
+      <article class="case" id="case-1">
+        <div class="case-visual"><svg class="sk" data-draw="case-1" viewBox="0 0 520 440" role="img" aria-label="Pencil sketch of an Ailanthus excelsa compound leaf, a flask of extract and a 96-well plate"></svg></div>
+        <div class="case-body">
+          <p class="file">Case file 01, 2024 to 2025</p>
+          <h3>Anti-arthritic and antioxidant potential of <i>Ailanthus excelsa</i> extract</h3>
+          <p class="where">Master's thesis, Sambalpur University</p>
+          <dl class="case-meta">
+            <dt>Question</dt><dd>Does <i>Ailanthus excelsa</i> extract reduce inflammation and oxidative stress?</dd>
+            <dt>Finding</dt><dd>A significant reduction in inflammatory markers.</dd>
+          </dl>
+          <p class="flow-title">Method</p>
+          <ol class="flow">
+            <li><span class="skbox">Solvent extraction</span></li>
+            <li><span class="skbox">Phytochemical screening</span></li>
+            <li><span class="skbox">DPPH and FRAP assays</span></li>
+            <li><span class="skbox">In vitro and in vivo studies</span></li>
+            <li><span class="skbox">Oxidative stress markers</span></li>
+          </ol>
+        </div>
       </article>
-      <article class="project">
-        <p class="when">2021 – 2022</p>
-        <h3>Genome-wide analysis of WRKY transcription factors in <i>Dichanthelium oligosanthes</i></h3>
-        <p class="where">Bachelor's thesis, Centurion University of Technology and Management</p>
-        <ul>
-          <li>Retrieved genomic data from NCBI and identified 84 WRKY genes (DoWRKY1–DoWRKY84) with BLAST and HMM profiling.</li>
-          <li>Ran alignment (MEGA, CLUSTAL W), phylogenetic and motif analysis (MEME), gene structure (GSDS), GO annotation (DeepGO) and localisation prediction (mGOASVM).</li>
-        </ul>
-        <ul class="tags" aria-label="Methods"><li>Bioinformatics</li><li>BLAST</li><li>HMMER</li><li>Phylogenetics</li><li>Gene ontology</li></ul>
+
+      <article class="case" id="case-2">
+        <div class="case-visual"><svg class="sk" data-draw="case-2" viewBox="0 0 520 440" role="img" aria-label="Pencil sketch of a grass tuft, a gene tree of WRKY genes and a sequence alignment of the WRKYGQK motif"></svg></div>
+        <div class="case-body">
+          <p class="file">Case file 02, 2021 to 2022</p>
+          <h3>Genome-wide analysis of WRKY transcription factors in <i>Dichanthelium oligosanthes</i></h3>
+          <p class="where">Bachelor's thesis, Centurion University of Technology and Management</p>
+          <dl class="case-meta">
+            <dt>Question</dt><dd>Which WRKY transcription factor genes does this grass carry, and how are they related?</dd>
+            <dt>Finding</dt><dd>84 WRKY genes identified and named DoWRKY1 to DoWRKY84.</dd>
+          </dl>
+          <p class="flow-title">Method</p>
+          <ol class="flow">
+            <li><span class="skbox">NCBI data retrieval</span></li>
+            <li><span class="skbox">BLAST and HMM profiling</span></li>
+            <li><span class="skbox">Alignment in MEGA, CLUSTAL W</span></li>
+            <li><span class="skbox">Phylogeny and motifs (MEME)</span></li>
+            <li><span class="skbox">Structure, GO and localisation</span></li>
+          </ol>
+        </div>
       </article>
-      <article class="project">
-        <p class="when">Apr – May 2022</p>
-        <h3>Transcriptional dynamics of odorant-binding proteins in <i>Corcyra cephalonica</i></h3>
-        <p class="where">Research intern, M.S. Swaminathan Plant Molecular Biology Lab, Centurion University</p>
-        <ul><li>Used RT-PCR, gel electrophoresis and centrifugation to study OBP gene expression in insect olfaction.</li></ul>
-        <ul class="tags" aria-label="Methods"><li>RT-PCR</li><li>Gel electrophoresis</li><li>Gene expression</li></ul>
+
+      <article class="case" id="case-3">
+        <div class="case-visual"><svg class="sk" data-draw="case-3" viewBox="0 0 520 420" role="img" aria-label="Pencil sketch of a rice moth, Corcyra cephalonica, and an agarose gel with bands"></svg></div>
+        <div class="case-body">
+          <p class="file">Case file 03, 2022</p>
+          <h3>Transcriptional dynamics of odorant-binding proteins in <i>Corcyra cephalonica</i></h3>
+          <p class="where">Research intern, M.S. Swaminathan Plant Molecular Biology Lab, Centurion University</p>
+          <dl class="case-meta">
+            <dt>Question</dt><dd>How are odorant-binding protein genes expressed in the rice moth's olfactory system?</dd>
+            <dt>My part</dt><dd>Gel electrophoresis, centrifugation and reverse transcription PCR for gene expression analysis.</dd>
+          </dl>
+          <p class="flow-title">Method</p>
+          <ol class="flow">
+            <li><span class="skbox">RNA isolation</span></li>
+            <li><span class="skbox">Centrifugation</span></li>
+            <li><span class="skbox">RT-PCR</span></li>
+            <li><span class="skbox">Gel electrophoresis</span></li>
+          </ol>
+        </div>
       </article>
-      <article class="project">
-        <p class="when">May – Jun 2024</p>
-        <h3>Natural product development and preclinical trials</h3>
-        <p class="where">National internship training, RCOE-NPT, Sambalpur University</p>
-        <ul><li>Hands-on training across phytochemical analysis, molecular modelling and drug design, animal cell culture, plant tissue culture, microbiology, and animal handling for preclinical research.</li></ul>
+
+      <article class="case" id="case-4">
+        <div class="case-visual">
+          <figure style="margin:0"><div class="plate skbox"><span class="tape r" aria-hidden="true"></span><img src="assets/lab-laminar-hood.jpg" width="363" height="480" loading="lazy" alt="Prajakta Panda working aseptically in a laminar flow hood during the national internship training"></div>
+          <figcaption class="cap">Plate III. Aseptic work in a laminar flow hood, RCOE-NPT</figcaption></figure>
+          <svg class="sk sub-sketch" data-draw="case-4" viewBox="0 0 520 200" role="img" aria-label="Pencil sketch of a laboratory rat and a streaked petri dish"></svg>
+        </div>
+        <div class="case-body">
+          <p class="file">Case file 04, May to June 2024</p>
+          <h3>Natural products development and preclinical trials</h3>
+          <p class="where">National internship training, Research Centre of Excellence for Natural Products and Therapeutics (RCOE-NPT), Sambalpur University</p>
+          <dl class="case-meta">
+            <dt>Format</dt><dd>A 30-day, 40-credit programme funded by the Odisha State Higher Education Council, with seven hours of hands-on lab work a day. Graded A.</dd>
+            <dt>Covered</dt><dd>The drug discovery pipeline, from extracting plant metabolites to in silico target work, cell and microbial screening, and in vivo preclinical evaluation.</dd>
+          </dl>
+          <p class="flow-title">Modules</p>
+          <ol class="flow">
+            <li><span class="skbox">Phytochemical analysis</span></li>
+            <li><span class="skbox">Molecular modelling</span></li>
+            <li><span class="skbox">Cell and tissue culture</span></li>
+            <li><span class="skbox">Microbiology</span></li>
+            <li><span class="skbox">Preclinical research</span></li>
+          </ol>
+        </div>
       </article>
     </div>
   </section>
 
-
-  <section class="block" id="lab" aria-labelledby="lab-h">
-    <h2 id="lab-h">In the lab</h2>
-    <div class="gallery">
-      <figure class="tall"><img src="assets/lab-gel-loading.jpg" width="1013" height="1400" loading="lazy" alt="Prajakta Panda loading DNA samples into an agarose gel on a UV transilluminator"><figcaption>Loading samples for agarose gel electrophoresis</figcaption></figure>
-      <figure><img src="assets/lab-pipetting.jpg" width="720" height="1280" loading="lazy" alt="Prajakta Panda pipetting at a lab bench in a white lab coat"><figcaption>Micropipetting at the bench</figcaption></figure>
-      <figure><img src="assets/lab-laminar-hood.jpg" width="363" height="480" loading="lazy" alt="Prajakta Panda working in a laminar flow hood wearing a hair net and mask"><figcaption>Aseptic work in a laminar flow hood</figcaption></figure>
-      <figure style="grid-column:span 2"><img src="assets/lab-bench.jpg" width="800" height="800" loading="lazy" alt="Prajakta Panda in a mask and hair net handling a sample tube in a research lab" style="aspect-ratio:2/1;object-position:50% 45%"><figcaption>Handling samples at the research bench</figcaption></figure>
+  <section class="sec" id="inventory" aria-labelledby="inv-h">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="note">Instruments in hand</span>
+        <h2 id="inv-h">Laboratory inventory</h2>
+        <p class="lede">The techniques I've practised, filed under the equipment they need.</p>
+      </div>
+      <div class="inventory">
+        <div class="item"><svg class="sk" data-draw="inv-1" viewBox="0 0 220 190" aria-hidden="true"></svg><span class="tag">Item 01, micropipette</span><h3>Nucleic acids</h3><p>PCR, RT-PCR, qPCR, DNA extraction, RNA extraction</p></div>
+        <div class="item"><svg class="sk" data-draw="inv-2" viewBox="0 0 220 150" aria-hidden="true"></svg><span class="tag">Item 02, gel tank</span><h3>Separation and blotting</h3><p>Agarose gel electrophoresis, Western blot</p></div>
+        <div class="item"><svg class="sk" data-draw="inv-3" viewBox="0 0 220 150" aria-hidden="true"></svg><span class="tag">Item 03, 96-well plate</span><h3>Assays</h3><p>ELISA, DPPH and FRAP antioxidant assays</p></div>
+        <div class="item"><svg class="sk" data-draw="inv-4" viewBox="0 0 220 140" aria-hidden="true"></svg><span class="tag">Item 04, culture flask</span><h3>Cell culture</h3><p>Mammalian cell culture, bacterial cell culture, aseptic technique</p></div>
+        <div class="item"><svg class="sk" data-draw="inv-5" viewBox="0 0 220 150" aria-hidden="true"></svg><span class="tag">Item 05, column</span><h3>Instruments</h3><p>HPLC, GC-MS, flow cytometry, spectrophotometry</p></div>
+        <div class="item"><svg class="sk" data-draw="inv-6" viewBox="0 0 290 160" aria-hidden="true"></svg><span class="tag">Item 06, notebook and code</span><h3>Bioinformatics and analysis</h3><p>BLAST, HMMER, CLUSTAL W, MEGA, MEME, GSDS, DeepGO, mGOASVM, molecular docking, GraphPad Prism, SPSS, ImageJ, MS Excel</p></div>
+      </div>
+      <p class="langs">Languages: English (professional), Odia and Hindi (native), Bengali (elementary)</p>
     </div>
   </section>
 
-  <section class="block" id="publications" aria-labelledby="pub-h">
-    <h2 id="pub-h">Publications</h2>
-    <ol class="refs">
-      <li><span class="me">Panda P</span>, Dewangan M, Sahoo SK, Prusty PK, Routray C, Panigrahi GK. <span class="t">In silico molecular docking reveals the interaction of caffeine with the SARS-CoV-2 main protease.</span> <em>Indian Journal of Natural Sciences</em>, 2020, 10(60).</li>
-      <li><span class="me">Panda P</span>, Dewangan M, Sahoo SK, Prusty PK, Routray C, Panigrahi GK. <span class="t">In silico molecular docking reveals the interaction of myricetin with the SARS-CoV-2 main protease.</span> <em>Indian Journal of Natural Sciences</em>, 2020, 10(60): 20504–20508.</li>
-      <li><span class="me">Panda P</span>, Dewangan M, Sahoo SK, Prusty PK, Panigrahi GK. <span class="t">In silico molecular docking study of ellagic acid against SARS-CoV-2 main protease (PDB ID: 6M03).</span> <em>Indian Journal of Natural Sciences</em>, 2020, 10(60).</li>
-    </ol>
+  <section class="sec" id="publications" aria-labelledby="pub-h">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="note">Archive</span>
+        <h2 id="pub-h">Publications</h2>
+      </div>
+      <div class="bib-wrap">
+        <ol class="bib">
+          <li><div><span class="no">I.</span><span class="meta">2020, vol. 10, no. 60</span></div><div><cite>In silico molecular docking reveals the interaction of caffeine with the SARS-CoV-2 main protease</cite><p class="au"><b>Panda P</b>, Dewangan M, Sahoo SK, Prusty PK, Routray C, Panigrahi GK.</p><p class="jr">Indian Journal of Natural Sciences</p></div></li>
+          <li><div><span class="no">II.</span><span class="meta">2020, vol. 10, no. 60, pp. 20504 to 20508</span></div><div><cite>In silico molecular docking reveals the interaction of myricetin with the SARS-CoV-2 main protease</cite><p class="au"><b>Panda P</b>, Dewangan M, Sahoo SK, Prusty PK, Routray C, Panigrahi GK.</p><p class="jr">Indian Journal of Natural Sciences</p></div></li>
+          <li><div><span class="no">III.</span><span class="meta">2020, vol. 10, no. 60</span></div><div><cite>In silico molecular docking study of ellagic acid against SARS-CoV-2 main protease (PDB ID: 6M03)</cite><p class="au"><b>Panda P</b>, Dewangan M, Sahoo SK, Prusty PK, Panigrahi GK.</p><p class="jr">Indian Journal of Natural Sciences</p></div></li>
+        </ol>
+        <div class="margin" aria-hidden="true">three natural compounds, one target: the SARS-CoV-2 main protease<svg class="sk" data-draw="spec-2" data-seed="41" viewBox="0 0 200 180"></svg></div>
+      </div>
+    </div>
   </section>
 
-
-  <section class="block" id="certificates" aria-labelledby="cert-h">
-    <h2 id="cert-h">Certificates</h2>
-    <div>
+  <section class="sec" id="certificates" aria-labelledby="cert-h">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="note">Pinned to the back cover</span>
+        <h2 id="cert-h">Certificates</h2>
+      </div>
       <div class="certs">
-        <div class="cert"><a href="assets/cert-nanobios-2025.jpg" target="_blank" rel="noopener"><img src="assets/cert-nanobios-2025.jpg" width="1280" height="864" loading="lazy" alt="Certificate of participation for Prajakta Panda, NanoBioS-2025 workshop on nanotechnology and biomedical solutions for drug delivery and immunology, NIT Rourkela"><h3>NanoBioS-2025 workshop</h3><p>Nanotechnology and Biomedical Solutions for Drug Delivery and Immunology, NIT Rourkela, 16–20 June 2025</p></a></div>
-        <div class="cert"><a href="assets/cert-rcoe-npt-internship.jpg" target="_blank" rel="noopener"><img src="assets/cert-rcoe-npt-internship.jpg" width="347" height="491" loading="lazy" alt="Certificate of participation for Prajakta Panda, national internship training on natural products development and preclinical trials, Sambalpur University"><h3>National internship training</h3><p>Natural Products Development and Preclinical Trials, RCOE-NPT, Sambalpur University, 6 May – 5 June 2024</p></a></div>
-        <div class="cert"><a href="assets/cert-centurion-internship-letter.jpg" target="_blank" rel="noopener"><img src="assets/cert-centurion-internship-letter.jpg" width="347" height="491" loading="lazy" alt="Internship completion letter for Prajakta Panda from the Plant Molecular Biology Laboratory, Centurion University"><h3>Plant Molecular Biology Lab internship</h3><p>Odorant-binding proteins of <i>Corcyra cephalonica</i>, Centurion University, 2022</p></a></div>
+        <div class="cert"><a href="assets/cert-nanobios-2025.jpg" target="_blank" rel="noopener"><div class="plate skbox"><span class="tape l" aria-hidden="true"></span><img src="assets/cert-nanobios-2025.jpg" width="1280" height="864" loading="lazy" alt="Certificate of participation for Prajakta Panda, NanoBioS-2025 workshop, NIT Rourkela"></div><h3>NanoBioS-2025 workshop</h3><p>Nanotechnology and Biomedical Solutions for Drug Delivery and Immunology, NIT Rourkela, 16 to 20 June 2025</p></a></div>
+        <div class="cert"><a href="assets/cert-rcoe-npt-internship.jpg" target="_blank" rel="noopener"><div class="plate skbox"><span class="tape r" aria-hidden="true"></span><img src="assets/cert-rcoe-npt-internship.jpg" width="347" height="491" loading="lazy" alt="Certificate of participation for Prajakta Panda, national internship training on natural products development and preclinical trials"></div><h3>National internship training</h3><p>RCOE-NPT, Sambalpur University, 6 May to 5 June 2024</p></a></div>
+        <div class="cert"><a href="assets/cert-centurion-internship-letter.jpg" target="_blank" rel="noopener"><div class="plate skbox"><span class="tape l" aria-hidden="true"></span><img src="assets/cert-centurion-internship-letter.jpg" width="347" height="491" loading="lazy" alt="Internship completion letter for Prajakta Panda from the Plant Molecular Biology Laboratory, Centurion University"></div><h3>Plant Molecular Biology Lab internship</h3><p>Odorant-binding proteins of <i>Corcyra cephalonica</i>, Centurion University, 2022</p></a></div>
       </div>
-      <div class="nptel">
-        <div><b>Experimental Biotechnology</b><span>NPTEL online certification, July–October 2024</span></div>
+      <div class="nptel skbox">
+        <div><b>Experimental Biotechnology</b><span>NPTEL online certification, July to October 2024</span></div>
         <a href="https://nptel.ac.in/noc/E_Certificate/NPTEL24BT65S56600013504201648" target="_blank" rel="noopener">View NPTEL certificate</a>
       </div>
     </div>
   </section>
 
-  <section class="block" id="skills" aria-labelledby="skills-h">
-    <h2 id="skills-h">Skills</h2>
-    <div class="skills">
-      <div><h3>Wet lab</h3><p>PCR, RT-PCR, qPCR, gel electrophoresis, Western blot, ELISA, mammalian and bacterial cell culture, DNA and RNA extraction, antioxidant assays</p></div>
-      <div><h3>Instruments</h3><p>HPLC, GC-MS, flow cytometry, spectrophotometry</p></div>
-      <div><h3>Bioinformatics</h3><p>BLAST, HMMER, CLUSTAL W, MEGA, MEME, GSDS, DeepGO, mGOASVM, molecular docking</p></div>
-      <div><h3>Data analysis</h3><p>GraphPad Prism, SPSS, ImageJ, MS Excel</p></div>
-      <div><h3>Languages</h3><p>English (professional), Odia and Hindi (native), Bengali (elementary)</p></div>
+  <section class="sec" id="timeline" aria-labelledby="tl-h">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="note">A record, newest first</span>
+        <h2 id="tl-h">Education and experience</h2>
+      </div>
+      <div class="tl">
+        <svg class="sk tl-line" data-draw="tl-line" viewBox="0 0 20 1000" preserveAspectRatio="none" aria-hidden="true"></svg>
+        <ol>
+        <li><svg class="sk node" data-draw="node" viewBox="0 0 24 24" aria-hidden="true"></svg><span class="y">June 2025</span><b>Workshop: NanoBioS-2025</b><span class="s">Nanotechnology and Biomedical Solutions for Drug Delivery and Immunology, NIT Rourkela</span></li>
+        <li><svg class="sk node" data-draw="node" viewBox="0 0 24 24" aria-hidden="true"></svg><span class="y">2025</span><b>M.Sc. Biotechnology</b><span class="s">Sambalpur University, Odisha</span></li>
+        <li><svg class="sk node" data-draw="node" viewBox="0 0 24 24" aria-hidden="true"></svg><span class="y">February 2025</span><b>National Seminar on Biotechnology and Bioinformatics</b><span class="s">National Science Day (BRIC-ILS), Sambalpur University</span></li>
+        <li><svg class="sk node" data-draw="node" viewBox="0 0 24 24" aria-hidden="true"></svg><span class="y">July to October 2024</span><b>NPTEL certification: Experimental Biotechnology</b><span class="s">Credential ID NPTEL24BT65S566000135</span></li>
+        <li><svg class="sk node" data-draw="node" viewBox="0 0 24 24" aria-hidden="true"></svg><span class="y">May to June 2024</span><b>National internship training, RCOE-NPT</b><span class="s">Natural products development and preclinical trials, Sambalpur University</span></li>
+        <li><svg class="sk node" data-draw="node" viewBox="0 0 24 24" aria-hidden="true"></svg><span class="y">2024</span><b>NUA-O Scholarship</b><span class="s">Sambalpur University</span></li>
+        <li><svg class="sk node" data-draw="node" viewBox="0 0 24 24" aria-hidden="true"></svg><span class="y">2023 to 2024</span><b>PG Merit Scholarship</b><span class="s">Sambalpur University</span></li>
+        <li><svg class="sk node" data-draw="node" viewBox="0 0 24 24" aria-hidden="true"></svg><span class="y">2023</span><b>National Merit Scholarship</b><span class="s">Sambalpur University</span></li>
+        <li><svg class="sk node" data-draw="node" viewBox="0 0 24 24" aria-hidden="true"></svg><span class="y">2022</span><b>B.Sc. Biochemistry (Honours)</b><span class="s">Centurion University of Technology and Management, Bhubaneswar. 10th rank in B.Sc. Applied Sciences across all campuses.</span></li>
+        <li><svg class="sk node" data-draw="node" viewBox="0 0 24 24" aria-hidden="true"></svg><span class="y">April to May 2022</span><b>Research intern, Plant Molecular Biology Lab</b><span class="s">M.S. Swaminathan School of Agriculture, Centurion University</span></li>
+        </ol>
+      </div>
     </div>
   </section>
 
-  <section class="block" id="education" aria-labelledby="edu-h">
-    <h2 id="edu-h">Education and awards</h2>
-    <ol class="timeline">
-      <li><span class="y">Jun 2025</span><b>Workshop: Nanotechnology and Biomedical Solutions for Drug Delivery and Immunology</b><span>NIT Rourkela</span></li>
-      <li><span class="y">2025</span><b>M.Sc. Biotechnology</b><span>Sambalpur University, Odisha</span></li>
-      <li><span class="y">Feb 2025</span><b>National Seminar on Biotechnology and Bioinformatics</b><span>National Science Day (BRIC-ILS), Sambalpur University</span></li>
-      <li><span class="y">Jul – Oct 2024</span><b>NPTEL certification: Experimental Biotechnology</b><span>NPTEL, credential ID NPTEL24BT65S566000135</span></li>
-      <li><span class="y">2024</span><b>NUA-O Scholarship</b><span>Sambalpur University</span></li>
-      <li><span class="y">2023 – 2024</span><b>PG Merit Scholarship</b><span>Sambalpur University</span></li>
-      <li><span class="y">2023</span><b>National Merit Scholarship</b><span>Sambalpur University</span></li>
-      <li><span class="y">2022</span><b>B.Sc. Biochemistry (Honours)</b><span>Centurion University of Technology and Management, Bhubaneswar. 10th rank in B.Sc. Applied Sciences across all campuses.</span></li>
-    </ol>
-  </section>
-
-  <section class="block" id="faq" aria-labelledby="faq-h">
-    <h2 id="faq-h">Quick answers</h2>
-    <div>
+  <section class="sec faq" id="faq" aria-labelledby="faq-h">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="note">Research notes, last page</span>
+        <h2 id="faq-h">Questions, answered</h2>
+      </div>
       <details open><summary>Who is Prajakta Panda?</summary><p>A biotechnology researcher from Sambalpur, Odisha, India, with an M.Sc. in Biotechnology from Sambalpur University (2025) and a B.Sc. in Biochemistry (Honours) from Centurion University of Technology and Management (2022).</p></details>
       <details><summary>What does she research?</summary><p>Natural product pharmacology (<i>Ailanthus excelsa</i>), plant genomics (WRKY transcription factors), insect molecular biology (odorant-binding proteins) and in silico molecular docking.</p></details>
       <details><summary>What has she published?</summary><p>Three co-authored, peer-reviewed papers in the Indian Journal of Natural Sciences (2020, vol. 10, issue 60) on molecular docking of caffeine, myricetin and ellagic acid against the SARS-CoV-2 main protease.</p></details>
@@ -431,51 +656,27 @@ footer{color:var(--ink-2);font-size:14px;padding:0 0 40px}
     </div>
   </section>
 
-  <section class="contact" id="contact" aria-labelledby="contact-h">
+  <div class="closing-band"><section class="wrap closing" id="contact" aria-labelledby="contact-h">
+    <svg class="sk foot-monstera" data-draw="foot-monstera" viewBox="0 0 560 560" aria-hidden="true"></svg>
+    <svg class="sk foot-dna float" data-draw="foot-dna" viewBox="0 0 230 50" aria-hidden="true"></svg>
     <div>
-      <h2 id="contact-h">Working on something I could help with?</h2>
-      <p>I reply to every email about PhD openings, research positions and collaborations.</p>
+      <span class="note">Correspondence</span>
+      <h2 id="contact-h"><span>Still curious.</span><span>Still observing.</span><span>Still discovering.</span></h2>
+      <ul class="contact-list">
+        <li><span class="k">Email</span><a href="mailto:prajaktapanda05@gmail.com">prajaktapanda05@gmail.com</a></li>
+        <li><span class="k">LinkedIn</span><a href="https://www.linkedin.com/in/prajakta-panda" rel="me noopener" target="_blank">linkedin.com/in/prajakta-panda</a></li>
+        <li><span class="k">CV</span><a href="assets/Prajakta-Panda-CV.pdf" download="Prajakta-Panda-CV.pdf">Download curriculum vitae (PDF)</a></li>
+      </ul>
     </div>
-    <div class="links">
-      <a href="mailto:prajaktapanda05@gmail.com">prajaktapanda05@gmail.com</a>
-      <a href="https://www.linkedin.com/in/prajakta-panda" rel="me noopener" target="_blank">linkedin.com/in/prajakta-panda</a>
-    </div>
-  </section>
+  </section></div>
 </main>
 
-<footer class="wrap">Prajakta Panda, Sambalpur, Odisha, India. Last updated November 2026.</footer>
+<footer class="wrap end">
+  <svg class="sk foot-rat" data-draw="foot-rat" viewBox="0 0 230 90" aria-hidden="true"></svg>
+  <span>Prajakta Panda, Sambalpur, Odisha, India</span>
+  <span>Notebook last updated November 2026. Drawings made for this site.</span>
+</footer>
 
-<script>
-// Gel lanes: technique labels + bands at fixed migration distances.
-(function(){
-  const lanes=[
-    ["Ladder",[30,48,68,92,120,150,182]],
-    ["PCR",[76,140]],
-    ["RT-PCR",[56,110,162]],
-    ["qPCR",[98]],
-    ["Western",[46,88,130]],
-    ["gDNA",[44]]
-  ];
-  const g=document.getElementById('lanes'),ns='http://www.w3.org/2000/svg';
-  const w=360/lanes.length;
-  lanes.forEach(([name,bands],i)=>{
-    const cx=i*w+w/2;
-    const t=document.createElementNS(ns,'text');
-    t.setAttribute('x',cx);t.setAttribute('y',13);t.setAttribute('text-anchor','middle');
-    t.setAttribute('class','lane-label');t.setAttribute('font-size','17');t.textContent=name;g.appendChild(t);
-    const well=document.createElementNS(ns,'rect');
-    Object.entries({x:cx-20,y:22,width:40,height:8,rx:2,class:'well'}).forEach(([k,v])=>well.setAttribute(k,v));
-    g.appendChild(well);
-    bands.forEach((y,j)=>{
-      const b=document.createElementNS(ns,'rect');
-      const thick=name==='Ladder'?3:4.5;
-      Object.entries({x:cx-18,y:y+30,width:36,height:thick,rx:2,class:'band'}).forEach(([k,v])=>b.setAttribute(k,v));
-      b.style.animationDelay=(0.15+i*0.08+j*0.03)+'s';
-      b.style.opacity=name==='Ladder'?0.75:1;
-      g.appendChild(b);
-    });
-  });
-})();
-</script>
+<script src="assets/sketch.js" defer></script>
 </body>
 </html>
