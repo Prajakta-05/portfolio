@@ -1,0 +1,44 @@
+# Prajakta Panda
+
+> Prajakta Panda is a biotechnology researcher from Sambalpur, Odisha, India. She holds an M.Sc. in Biotechnology from Sambalpur University (2025) and a B.Sc. in Biochemistry (Honours) from Centurion University of Technology and Management (2022). She is seeking PhD positions and research associate roles in biotechnology, pharmacology and bioinformatics.
+
+Canonical profile: https://prajakta-05.github.io/portfolio/
+LinkedIn: https://www.linkedin.com/in/prajakta-panda
+Email: prajaktapanda05@gmail.com
+Location: Sambalpur, Odisha, India
+
+## Research
+
+- Master's thesis (2024–2025), Sambalpur University: anti-arthritic and antioxidant potential of Ailanthus excelsa extract. Solvent extraction, phytochemical screening, DPPH and FRAP antioxidant assays, in vitro and in vivo anti-inflammatory studies, oxidative stress markers.
+- Bachelor's thesis (2021–2022), Centurion University: genome-wide analysis of WRKY transcription factors in Dichanthelium oligosanthes. Identified 84 WRKY genes (DoWRKY1–DoWRKY84) using BLAST and HMM profiling; phylogenetic, motif (MEME), gene structure (GSDS), GO (DeepGO) and localisation (mGOASVM) analysis.
+- Research intern (Apr–May 2022), M.S. Swaminathan Plant Molecular Biology Lab, Centurion University: transcriptional dynamics of odorant-binding proteins (OBPs) in Corcyra cephalonica using RT-PCR.
+- National internship training (May–Jun 2024), RCOE-NPT, Sambalpur University: natural product development and preclinical trials.
+
+## Publications
+
+1. Panda P, Dewangan M, Sahoo SK, Prusty PK, Routray C, Panigrahi GK. In silico molecular docking reveals the interaction of caffeine with the SARS-CoV-2 main protease. Indian Journal of Natural Sciences, 2020, 10(60).
+2. Panda P, Dewangan M, Sahoo SK, Prusty PK, Routray C, Panigrahi GK. In silico molecular docking reveals the interaction of myricetin with the SARS-CoV-2 main protease. Indian Journal of Natural Sciences, 2020, 10(60): 20504–20508.
+3. Panda P, Dewangan M, Sahoo SK, Prusty PK, Panigrahi GK. In silico molecular docking study of ellagic acid against SARS-CoV-2 main protease (PDB ID: 6M03). Indian Journal of Natural Sciences, 2020, 10(60).
+
+## Skills
+
+- Wet lab: PCR, RT-PCR, qPCR, gel electrophoresis, Western blot, ELISA, mammalian and bacterial cell culture, DNA/RNA extraction, antioxidant assays
+- Instruments: HPLC, GC-MS, flow cytometry, spectrophotometry
+- Bioinformatics: BLAST, HMMER, CLUSTAL W, MEGA, MEME, GSDS, DeepGO, mGOASVM, molecular docking
+- Data analysis: GraphPad Prism, SPSS, ImageJ, MS Excel
+- Languages: English, Odia, Hindi, Bengali
+
+## Certifications
+
+- Experimental Biotechnology, NPTEL (Jul–Oct 2024). Credential: https://nptel.ac.in/noc/E_Certificate/NPTEL24BT65S56600013504201648
+- NanoBioS-2025 workshop, Nanotechnology and Biomedical Solutions for Drug Delivery and Immunology, NIT Rourkela (16–20 June 2025)
+- National Internship Training, Natural Products Development and Preclinical Trials, RCOE-NPT, Sambalpur University (6 May – 5 June 2024)
+
+## Awards
+
+- NUA-O Scholarship, Sambalpur University (2024)
+- PG Merit Scholarship, Sambalpur University (2023–2024)
+- National Merit Scholarship (2023)
+- 10th rank in B.Sc. Applied Sciences, all campuses, Centurion University
+
+Last updated: 2026-11-21
